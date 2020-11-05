@@ -50,7 +50,7 @@ export default class Login extends Component {
                   </div>
 
                   <Link
-                    to="/"
+                    to="/userpage"
                     type="submit"
                     className="btn btn-primary btn-block"
                   >
