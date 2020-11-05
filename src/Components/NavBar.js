@@ -1,12 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
-  //   const [active, setActive] = useState(false);
-
-  // const OnSubmit = () =>{
-  //     setActive(true)
-  // }
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
@@ -21,13 +16,7 @@ export const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                //   onClick={() => {
-                //     setActive(true);
-                //   }}
-                className="nav-link"
-                to="/sign-up"
-              >
+              <Link className="nav-link" to="/sign-up">
                 Sign up
               </Link>
             </li>
