@@ -19,7 +19,7 @@ export class NavBar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <Link className="navbar-brand" to="/sign-in">
+          <Link className="navbar-brand" to="/">
             Patricia
           </Link>
           <button
