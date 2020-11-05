@@ -20,6 +20,7 @@ export default class Login extends Component {
                     <input
                       type="email"
                       className="form-control"
+                      defaultValue="allowme@patricia.co"
                       placeholder="Enter email"
                     />
                   </div>
@@ -28,6 +29,7 @@ export default class Login extends Component {
                     <label>Password</label>
                     <input
                       type="password"
+                      defaultValue="password"
                       className="form-control"
                       placeholder="Enter password"
                     />
@@ -39,6 +41,7 @@ export default class Login extends Component {
                         type="checkbox"
                         className="custom-control-input"
                         id="customCheck1"
+                        checked="true"
                       />
                       <label
                         className="custom-control-label"
@@ -50,7 +53,7 @@ export default class Login extends Component {
                   </div>
 
                   <Link
-                    to="/"
+                    to="/userpage"
                     type="submit"
                     className="btn btn-primary btn-block"
                   >

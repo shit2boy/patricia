@@ -5,7 +5,7 @@ export default class SignUp extends Component {
   render() {
     return (
       <>
-        <NavBar />
+        <NavBar isActive="false" />
         <div className=" container-fluid wrapper ">
           <div className="row">
             <div className="col d-none d-lg-block  "></div>

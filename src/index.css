@@ -88,13 +88,19 @@ div.auth-inner:active {
 }
 
 /*userpage*/
+.side {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .sidebar {
   height: 100%;
-  position: fixed;
-  z-index: 1;
+  width: 120px;
+  /* position: fixed; */
+  /* z-index: 1; */
   margin-top: 0%;
+
   left: 0;
-  background-color: #111;
+  background-color: rgb(249, 252, 253);
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -103,10 +109,11 @@ div.auth-inner:active {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #1b1111;
   display: block;
 }
 
 .sidebar a:hover {
   color: #f1f1f1;
+  text-decoration: none;
 }
