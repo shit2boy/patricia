@@ -8,20 +8,11 @@ import SignUp from "./Components/SignUp";
 import UserPage from "./Components/UserPage";
 
 function App() {
-  // const [active, setActive] = useState(false);
-
-  // const onSubmit = () => {
-  //   setActive(true);
-  // };
-
   return (
     <>
-      {/* <div className="App"> */}
-
       <Router>
         <Switch>
           <Route exact path="/" component={Login} />
-          {/* <Route path="/sign-in" component={Login} /> */}
           <Route path="/sign-up" component={SignUp} />
           <Route path="/userpage" component={UserPage} />
         </Switch>
